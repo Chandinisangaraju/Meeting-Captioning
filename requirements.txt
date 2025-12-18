@@ -4,7 +4,7 @@ opencv-python==4.8.1.78
 
 # AI and Transcription
 openai-whisper==20231117
-torch
+torch --extra-index-url https://download.pytorch.org/whl/cpu
 
 # Input Handling
 pytube==15.0.0
@@ -17,3 +17,4 @@ fpdf==1.7.2
 
 numpy
 setuptools
+
