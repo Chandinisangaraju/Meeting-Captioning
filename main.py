@@ -56,10 +56,11 @@ if __name__ == "__main__":
 
     # --- INPUT SELECTION ---
     # 1. Local (MP4, MOV, AVI) [cite: 20]
-    # 2. YouTube Public URL [cite: 25] e.g: ''https://youtu.be/dh0pJdgY6Lc?si=Rrb3bezBlg6gnFch'
+    # 2. YouTube Public URL [cite: 25] e.g: 'https://youtu.be/dh0pJdgY6Lc?si=Rrb3bezBlg6gnFch'
     # 3. Cloud Storage (Google Drive/Dropbox) [cite: 22]
     # 4. Private Internal Meetings [cite: 23]
     
-    meeting_input = 'sample_meeting.mp4' 
+    meeting_input = 'https://youtu.be/dh0pJdgY6Lc?si=Rrb3bezBlg6gnFch' 
     
+
     run_automated_pipeline(meeting_input, username=USER_CRED, password=PASS_CRED)
