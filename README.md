@@ -38,7 +38,7 @@ pip install -r requirements.txt
 💻 Usage (Single-Click Process)
 To process a video and generate all deliverables:
 
-Open main_app.py.
+Open main_app.py
 Update the meeting_input variable with your URL or local file path.
 Run the script:
 
