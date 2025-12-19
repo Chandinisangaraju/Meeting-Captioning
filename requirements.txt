@@ -1,0 +1,13 @@
+
+# --- CORE DEPENDENCIES ---
+opencv-python         # For video frame processing in video_processor.py
+openai-whisper        # For audio transcription in audio_processor.py
+yt-dlp                # For YouTube video extraction in input_handler.py
+requests              # For web/cloud link downloads in input_handler.py
+
+# --- DOCUMENT GENERATION ---
+xhtml2pdf             # For converting HTML reports to PDF format
+
+# --- STABILITY & PERFORMANCE ---
+numpy<2               # Required for compatibility with older Whisper/OpenCV builds
+setuptools-rust       # Required for compiling Whisper on some systems
