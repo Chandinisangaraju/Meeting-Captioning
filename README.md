@@ -21,9 +21,10 @@ Full Reports: Generates burned-in captions and a summarized PDF .
 
 
 🛠️ Quick Start
-Install: pip install -r requirements.txt (Requires FFmpeg).
+Install: pip install -r requirements.txt 
+(Requires FFmpeg).
 
-Run: Set your link in main_app.py and run python main_app.py.
+Run: run python main_app.py and provide the input link.
 
 📦 Deliverables
 
