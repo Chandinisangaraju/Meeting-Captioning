@@ -1,0 +1,16 @@
+
+# --- Video Processing & Frame Extraction ---
+# Used in video_processor.py to detect screen changes and clicks
+opencv-python==4.8.1.78
+numpy
+
+# --- AI Transcription & Synchronization ---
+# Used in audio_processor.py for speech-to-text and segment timestamps
+openai-whisper
+torch
+setuptools
+
+# --- Input Handling (YouTube & Web Links) ---
+# Used in input_handler.py to download videos from URLs
+yt-dlp
+requests
