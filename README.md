@@ -31,4 +31,4 @@ Run: run python main.py and provide the input link.
 meeting_video_captions.mp4: Video with hardcoded captions.
 
 
-Detailed_Meeting_Report.pdf: PDF with transcript and summaries.
+Detailed_Meeting_Report.html: Report with transcript and summaries.
